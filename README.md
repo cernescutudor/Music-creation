@@ -33,7 +33,7 @@ de lucru dupa parerea mea.
 Ce e 'origin'? \
 'origin' e numele repository-ului online pe care l-ai clonat.
 
-##### Niste tutoriale bune:
-https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes\
-https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell\
+#### Niste tutoriale bune:
+https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes \
+https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell \
 https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
