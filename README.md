@@ -2,7 +2,7 @@
 
 - cloneaza proiectul de pe GitHub (*git clone https://github.com/912-Cseke-Stefan/Music-creation*)
 - pentru a lucra, creeaza un branch local (*git branch my_branch*) si schimba branch-ul curent pe cel 
-         tocmai creat (*git checkout <name>*)
+         tocmai creat (*git checkout my_branch*)
 - fisierele modificate trebuie sa fie marcate pentru commit (*git add .* -> in folderul principal; 
          in GUI, actiunea ar trebui sa apara sub numele de 'Stage changes'), dupa care se face 
          commit-ul (*git commit -m "message"*)
@@ -10,7 +10,7 @@
          branch-ul main la versiunea sa din proiectul de pe GitHub (*git pull*; aceasta face 
          implicit *'git pull origin main'*, care da merge la branch-ul main de pe online la 
          branch-ul local curent, adica main), dupa care dai merge la branch-ul de lucru in 
-         branch-ul curent (*git merge <name>*)
+         branch-ul curent (*git merge my_branch*)
     De notat: daca lucrezi local tot pe main, *git pull* s-ar putea sa aiba conflicte; daca lucrezi
             pe branch separat, conflictele o sa apara la *git merge*. Consider ca e mai ok asa, 
             desi oricum e foarte indicat sa lucrati cu branch-uri si sa le denumiti sugestiv, in 
