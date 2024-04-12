@@ -1,4 +1,4 @@
-## Mod de lucru Git/GitHub + comenzi pentru consola (Git Bash):
+### Mod de lucru Git/GitHub + comenzi pentru consola (Git Bash):
 
 - cloneaza proiectul de pe GitHub (*git clone https://github.com/912-Cseke-Stefan/Music-creation*)
 - pentru a lucra, creeaza un branch local (*git branch my_branch*) si schimba branch-ul curent pe cel \
@@ -28,12 +28,12 @@ local. O sa lucram cu un branch pe remote, si anume main; restul branch-urilor c
 de-a face o sa fie proprii si locale pentru fiecare dintre noi. Acesta ar fi cel mai simplu mod 
 de lucru dupa parerea mea.
 
-## FAQ:
+### FAQ:
 
-Ce e origin? \
+Ce e 'origin'? \
 'origin' e numele repository-ului online pe care l-ai clonat.
 
-### Niste tutoriale bune:
+##### Niste tutoriale bune:
 https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes\
 https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell\
 https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
