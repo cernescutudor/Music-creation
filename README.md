@@ -1,6 +1,7 @@
 ## Mod de lucru Git/GitHub + comenzi pentru consola (Git Bash):
+
 - cloneaza proiectul de pe GitHub (*git clone https://github.com/912-Cseke-Stefan/Music-creation*)
-- pentru a lucra, creeaza un branch local (*git branch <name>*) si schimba branch-ul curent pe cel 
+- pentru a lucra, creeaza un branch local (*git branch my_branch*) si schimba branch-ul curent pe cel 
          tocmai creat (*git checkout <name>*)
 - fisierele modificate trebuie sa fie marcate pentru commit (*git add .* -> in folderul principal; 
          in GUI, actiunea ar trebui sa apara sub numele de 'Stage changes'), dupa care se face 
@@ -27,6 +28,7 @@ de-a face o sa fie proprii si locale pentru fiecare dintre noi. Acesta ar fi cel
 de lucru dupa parerea mea.
 
 ## FAQ:
+
 Ce e origin?
 'origin' e numele repository-ului online pe care l-ai clonat.
 
