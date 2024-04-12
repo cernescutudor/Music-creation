@@ -11,7 +11,7 @@
          implicit *'git pull origin main'*, care da merge la branch-ul main de pe online la \
          branch-ul local curent, adica main), dupa care dai merge la branch-ul de lucru in \
          branch-ul curent (*git merge my_branch*) \
-    De notat: daca lucrezi local tot pe main, *git pull* s-ar putea sa aiba conflicte; daca lucrezi \
+    **De notat**: daca lucrezi local tot pe main, *git pull* s-ar putea sa aiba conflicte; daca lucrezi \
             pe branch separat, conflictele o sa apara la *git merge*. Consider ca e mai ok asa, \
             desi oricum e foarte indicat sa lucrati cu branch-uri si sa le denumiti sugestiv, in \
             functie de ce vreti sa faceti la momentul respectiv, deoarece alea raman in istoric \
@@ -19,8 +19,9 @@
 - daca apar conflicte, am pus un link care arata cum se rezolva, Visual Studio are de asemenea \
          GUI pentru rezolvarea lor, dar, in orice caz, ne putem auzi sa vedem cum se rezolva
 - dupa ce branch-ul main local a fost actualizat, modifica branch-ul main de pe GitHub \
-         (*git push origin main*); nu am configurat sa fie nevoie de pull request, deci ar trebui \
-         sa ruleze fara probleme si modificarile sa fie vizibile imediat pe GitHub
+         (*git push origin main* sau, mai scurt, *git push*); nu am configurat sa fie nevoie de pull \
+		 request, deci ar trebui sa ruleze fara probleme si modificarile sa fie vizibile imediat pe \
+		 GitHub
 
 O clarificare suplimentara, fiecare o sa se raporteze la doua repouri: cel remote si unul propriu 
 local. O sa lucram cu un branch pe remote, si anume main; restul branch-urilor cu care o sa avem 
