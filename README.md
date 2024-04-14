@@ -21,7 +21,7 @@ Service interface:
 - MusicTag[] getAllTags()
 - Playable create(Playable[] elements)
 
-*Playable* file format: .wav
+**Playable** file format: .wav
 
 
 #### Niste tutoriale pentru Git:
